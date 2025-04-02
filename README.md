@@ -13,7 +13,7 @@ It is suitable for hosting PHP-based websites or applications like **openSIS**, 
 - ✅ Custom memory limit via `php.ini`
 
 ## 📂 Folder Structure
-  ├── apache/ # Apache configuration (default.conf)
+/ ├── apache/ # Apache configuration (default.conf)
   ├── php/ # PHP settings (php.ini)
   ├── www/ # Web root (your website files go here)
   ├── apache.sh # Apache startup script
@@ -46,7 +46,7 @@ To test the PHP environment, you can upload a file like:
 
 ```php
 <?php phpinfo(); ?>
-
+```
 📜 License
 This project is licensed under the MIT License.
 
