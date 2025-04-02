@@ -13,7 +13,7 @@ It is suitable for hosting PHP-based websites or applications like **openSIS**, 
 - ✅ Custom memory limit via `php.ini`
 
 ## 📂 Folder Structure
-/ ├── apache/ # Apache configuration (default.conf)
+  ├── apache/ # Apache configuration (default.conf)
   ├── php/ # PHP settings (php.ini)
   ├── www/ # Web root (your website files go here)
   ├── apache.sh # Apache startup script
