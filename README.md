@@ -8,13 +8,13 @@ This is a custom Pterodactyl egg for hosting web applications using **Apache** a
 
 ```
 /
-├── apache/              # Apache configuration (default.conf)
-├── php/                 # PHP settings (php.ini)
-├── www/                 # Web root (your website files go here)
-├── apache.sh            # Apache startup script
-├── pull-git.sh          # Git auto-update script (optional)
-├── cloudflared.sh       # Cloudflare Tunnel launcher (optional)
-└── LICENSE              # MIT License
+├── apache/
+│   └── default.conf
+├── php/
+│   └── php.ini
+├── apache.sh
+├── README.md
+└── .gitignore
 ```
 
 ---
